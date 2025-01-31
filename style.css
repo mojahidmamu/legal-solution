@@ -112,12 +112,14 @@ main{
     font-size: 28px;
     font-weight: bold;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .section-description{
     font-size: 16px;
     color: gray;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .cards-container{
@@ -154,4 +156,30 @@ main{
 .card-icon {
     height: 50px;
     margin-bottom: 15px;
+}
+ 
+.Parent {
+    display: flex;
+    justify-content: space-around;
+}
+
+.faq-image{
+    height: 70vh;
+}
+
+.Questions{
+    padding: 10px;
+    border: 1px solid gray;
+    border: none;
+    background-color: #dfcdcd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    width: 400px;
+}
+
+.answer {
+    font-size: 16px;
+    color: gray;
+    
 }
