@@ -59,6 +59,20 @@ main{
     border: none;
 }
 
+.btn-1{
+    background-color: #a97f50;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    width: 80%;
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+}
+
 
 .btn-consulation:hover {
     background-color: #8a693f;
@@ -181,5 +195,36 @@ main{
 .answer {
     font-size: 16px;
     color: gray;
-    
+}
+
+.section-title-2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.Parent-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.child-div{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.input-field{
+    width: 90%;
+    margin-left: 70px;
+}
+
+.input{ 
+    width: 80%;
+    display: block;
+    height: 70px;
+    border-radius: 10px;
+    background-color: #ecdfdfd4;
 }
