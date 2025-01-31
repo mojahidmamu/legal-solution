@@ -228,3 +228,39 @@ main{
     border-radius: 10px;
     background-color: #ecdfdfd4;
 }
+
+footer{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 30px 100px;
+    align-items: center; 
+}
+
+.footer---{
+    color: #666666;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+}
+
+.footer-logo img{
+    height: 50px;
+}
+
+.footer-input{
+    display: flex;  
+}
+
+.fooer-parent-div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-link{
+    list-style: none;
+    color: gray; 
+}
